@@ -1,0 +1,95 @@
+.all {
+    width: 1000px;
+    margin: auto;
+}
+.column {
+    float: left;
+    width: 500px;
+    padding:none;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: black;
+    
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(171, 238, 255);
+    color: rgb(57, 0, 189);
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li.right-align {
+    float: right;
+}
+
+nav ul li a {
+    color: rgb(57, 0, 189);
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    }
+
+/* mouse over link */
+a:hover {
+    color: rgb(57, 0, 189);
+
+  /* selected link */
+
+    color: rgb(255, 0, 0);
+  }
+  p{
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .columnimg {
+    width: 500px;
+    padding:none;
+  }
+
+.column1 {
+    float: left;
+    width:100px;
+    margin-left: 3px;
+  }
+  .div1 {
+    float: left;
+    padding:5px;
+    width: 200px;
+    height: 250px;
+  }
+  .div2 {
+    float: left;
+    padding:5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .column3 {
+    float: right;
+    width:100px;
+  
+  }
+  .div12 {
+    float: right;
+    padding:5px;
+    width: 250px;
+    height: 550px ;
+  }
