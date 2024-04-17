@@ -1,11 +1,12 @@
 .cha, .lop1, .lop2, .lop3{
     width:200px;
-    height:200px;
+    height:400x;
 }
 .cha{
     position:relative;
     overflow:hidden;
-    border-radius: 3px;
+    border-radius: 15px;
+
 }
 .cha .lop1{
     top:0;
@@ -25,14 +26,16 @@
     left:0;
     background-color: rgb(226, 226, 226);
     transition:0.4s;
+    color: rgb(177, 0, 38);
+    font-size: large;
 }
 .cha:hover .lop2{
     opacity:0.4;
     transform:scale(1.2);
 }
 .cha .lop3{
-    top:90px;
-    left:60px;
+    top:40px;
+    left:30px;
     position:absolute;
     transition: 0.4s;
     opacity:0;
@@ -45,21 +48,19 @@
 .con{
     display:flex;
     justify-content: space-evenly;
-    padding-top: 3px;
+
+
 
 }
 .toanbo{
     background-color: rgb(255, 238, 238);
-    height:3100px;
+    height:1800px;
     width:900px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(0, 0, 0);
     font-weight: bold;
-    margin:0 auto;
-}
-.toanbo h2{
-    margin-left: 80px;
-    padding-top:20px;
+    margin: auto;
+    padding: 20px;
 }
 
 ul{
@@ -99,13 +100,18 @@ div{
     margin-top: 20px;
     margin-left: 15px;
     padding:2px 15px;
-    height:250px;}
+    height:250px;
+
+
+}
+    
 .dong{
-    border-bottom: 2px solid black; 
+    border-bottom: 5px solid black; 
     background-color: black;
     padding: 5px;
-    border-radius: 45px ;
-    height: 40px;
+    border-radius: 1px ;
+    height: 60px;
+    margin-top: 3px;
 }
 .back{
     background-color: black;
@@ -123,6 +129,7 @@ div{
     text-align: center;
     color: rgb(255, 224, 224);
     max-height: 85px;
+  margin-top: 100px;
 }
 .doan3{
     color: black;
@@ -161,9 +168,9 @@ div{
 
  .div {
     
-     width:30%;   
+     width:50%;   
     display:inline-block;
-    padding: 20px;
+    padding: 15px;
      margin: auto;
         }
      
@@ -194,53 +201,38 @@ div{
     margin-right: 12px;   
  }
  .div3{
-    padding-top: 30px;
-    margin: auto;
-    max-width: 900px;
-    text-align: center;
-    height: auto;
-    
+    width:50%;   
+    display:inline-block;
+    padding: 15px;
+     margin: auto;
+     background-color: #ffc8c8;
+    border-radius: 13px;
 }
 h3{
     font-size: 24px;
 }
-.gach{
-    border-bottom: 1px solid rgb(191, 191, 191);
-    max-width:900px; 
-}
+
 .p{
     text-align: center;
 }
 i {
     width: 100px;
     height: 100px;
-    background-color: white;
+    background-color: rgb(255, 201, 201);
     padding: 10px;
     border-radius: 50px;
     text-align: center;
 }
 .canh{
-    padding: 15px;
     font-size: 50px;
     text-align: center;
     margin: auto;
+    padding-top:5px;
 }
 .do{
     float: right;
     padding-right: 10px;
 }
-.doan8{
-    margin-top: 25px;
-     text-align: center;
-     max-height: 700px;}
-     .image1 {
-        margin-right: 20px;
-    
-      }
-  
-      .image1 img {
-        margin-right: 20px;
-        width: 200px;
-        height: auto;
-        border-radius: 30px;
-      }
+.cach{
+    margin-top: 4px;
+}
